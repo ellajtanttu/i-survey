@@ -1,6 +1,6 @@
-# _PROJECT NAME_
+# _Practice form_
 
-#### _EPICODUS PRACTICE: Sample one-sentence description_
+#### _EPICODUS PRACTICE: wk2:l50 Forms Practice_
 
 #### By _**Ella Tanttu**_
 
@@ -14,15 +14,16 @@
 
 ## Description
 
-_{Detailed description that explains the project and what concepts were being practiced.}_
+_{Survey Exercise Prompt: Use a form to let the user fill out a survey. Ask them to fill in their name, their favorite foods, their favorite music, and any other information you feel like. Include all form input types we've covered so far (except checkboxes; we'll learn more about those next week!)}_
+_https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/practice-form-input-types_
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/url-path in your browser_
+* _Navigate to https://github.com/ellajtanttu/i-survey in your browser_
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
-* _open DIRECTORYNAME/index.html in your browser_
+* _open i-survey/index.html in your browser_
 * _Open index.html and styles.css in VS Code to edit_
 
 ## Known Bugs

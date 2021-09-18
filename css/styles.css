@@ -1,0 +1,27 @@
+.container {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formSection {
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.resultsSumm {
+  display: none;
+  margin: 5px;
+  padding: 35px;
+  border-width: 2px;
+  border-radius: 20px;
+  color: gray;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Independent Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,900&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="survey">
+
+        <div class="surveyIntro">
+          <h1>Personality Survey</h1>
+          <p>Please take a moment to fill out the form below so that we can get a clear idea of your personal preferences:</p>
+        </div>
+
+        <div class="formSection">
+          <form id="persForm">
+
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="birthday">Birth date:</label>
+              <input id="birthday" class="form-control" type="date">
+            </div>
+
+            <div class="form-group">
+              <label for="faveFoods">Select your favorite type of food from the options:</label>
+              <select class="form-control" id="faveFoods">
+                <option>Select</option>
+                <option>Italian</option>
+                <option>Thai</option>
+                <option>Cajun</option>
+                <option>Chinese</option>
+              </select> 
+            </div>
+
+            <div class="form-group">
+              <label for="faveMusic">Select your favorite type of music from the options:</label>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="faveMusic" value="Jazz">
+                  Jazz
+                </label>
+              </div> 
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="faveMusic" value="Rb">
+                  R&B
+                </label>
+              </div> 
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="faveMusic" value="Electronic">
+                  Electronic
+                </label>
+              </div> 
+
+            </div>
+
+            <div class="form-group">
+              <label for="faveColor">What is your favorite color:</label>
+              <input id="faveColor" class="form-control" type="color">
+            </div>
+
+            <button type="submit" class="btn btn-secondary" id="formButton">submit</button>
+
+          </form>
+        </div>
+
+        <div class="resultsSumm">
+          <h4>Thanks! Here is what we know about you now:</h4>
+          <ul>
+            <li>Your name is <strong><span id="userName"></span></strong></li>
+            <li>You were born <strong><span id="userBirth"></span></strong></li>
+            <li>Your favorite food from the options provided is <strong><span id="userFoods"></span></strong></li>
+            <li>Of the music options listed, you prefer to listen to <strong><span id="userMusic"></span></strong></li>
+            <li>This box is your favorite color!</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
