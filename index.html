@@ -24,17 +24,17 @@
           <form id="persForm">
 
             <div class="form-group">
-              <label for="name">Name:</label>
+              <label for="name" id="labelName">Name:</label>
               <input id="name" class="form-control" type="text">
             </div>
 
             <div class="form-group">
-              <label for="birthday">Birth date:</label>
+              <label for="birthday" id="labelBD">Birth date:</label>
               <input id="birthday" class="form-control" type="date">
             </div>
 
             <div class="form-group">
-              <label for="faveFoods">Select your favorite type of food from the options:</label>
+              <label for="faveFoods" id="labelFoods">Select your favorite type of food from the options:</label>
               <select class="form-control" id="faveFoods">
                 <option>Select</option>
                 <option>Italian</option>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="form-group">
-              <label for="faveMusic">Select your favorite type of music from the options:</label>
+              <label for="faveMusic" id="labelMusic">Select your favorite type of music from the options:</label>
 
               <div class="radio">
                 <label>
@@ -71,7 +71,7 @@
             </div>
 
             <div class="form-group">
-              <label for="faveColor">What is your favorite color:</label>
+              <label for="faveColor" id="labelColor">What is your favorite color:</label>
               <input id="faveColor" class="form-control" type="color">
             </div>
 
@@ -89,7 +89,17 @@
             <li>Of the music options listed, you prefer to listen to <strong><span id="userMusic"></span></strong></li>
             <li>This box is your favorite color!</li>
           </ul>
+        </div>
 
+        <div class="error">
+          <h4>Oops! Looks like you need to fill out some more info.</h4>
+        </div>
+
+        <div class="arrayDiv">
+          <h4>Here's a list of your first three answers:</h4>
+          <ul class="arrayList">
+
+          </ul>
         </div>
 
       </div>

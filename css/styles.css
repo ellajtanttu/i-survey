@@ -25,3 +25,12 @@ h1 {
 h4 {
   font-family: 'Merriweather', serif;
 }
+
+.error {
+  display: none;
+}
+
+.arrayDiv {
+  display: none;
+  padding-top: 45px;
+}
